@@ -1,0 +1,23 @@
+body{
+  background-color: gray;
+  text-align: center;
+}
+
+.menu1{
+  display: inline-block;
+}
+
+.btn1{
+  background-color: aquamarine;
+}
+
+.pdr1{
+    width: 512px;
+    height: 384px;
+}
+
+.bar1{
+  height: 7px;
+  width: 50vw;
+  background-color: white;
+}
