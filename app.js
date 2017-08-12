@@ -29,8 +29,7 @@ app.get('/pdr', function(req, res){
 
 
 
-
-app.listen(3000, function(err){
+app.listen((process.env.PORT || 5000), function(err){
   if(err){ throw err; }
   console.log("Server Up & Running.....");
 });
